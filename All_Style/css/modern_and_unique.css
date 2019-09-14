@@ -1,0 +1,752 @@
+/* 
+* Project Name :
+* Project Author :
+* Project Start Date :
+* All Section 
+*   1. Base Css
+*/
+/* ============> **Base Css Start** <============ */
+/* ===============> **Font-Family Css Start** <==============*/
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+/* ===============> **Font-Family Css End** <==============*/
+*{margin: 0px; padding: 0px;}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+a{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.main_container{
+    padding: 0px 100px;
+}
+/* ===============> **Base Css End** <==============*/
+/* ===============> **Header Css Start** <==============*/
+.banner_full{
+    background-image: url(../img/daydreaming-desk-hair-6384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* .header_wrap{
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    
+} */
+.header_top{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    background-color: #002129;
+}
+.header_top p{
+    font-size: 16px;
+    color: #fff;    
+    padding: 20px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header_bottom{
+    background-color: #002129;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.header_bottom .logo{
+    padding: 31px 45px;
+    border-right: 2px solid #000000;    
+    background-color: #00313d;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.header_bottom .menu_bar{
+    padding: 33px 30px 33px 30px;
+}
+.header_bottom .menu_bar ul{
+    display: flex;   
+    justify-content: space-between;
+
+}
+.header_bottom .menu_bar ul li{
+    padding-left: 10px;
+}
+.header_bottom .menu_bar ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 12px 12px;
+    border-radius: 12px;
+}
+.header_bottom .menu_bar ul li :hover{
+    box-shadow: 0px 0px 12px 12px #00313D;
+
+}
+.single_menu{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+.social_icon{
+    display: flex;
+    padding: 26px 60px 26px 30px;
+}
+.social_icon a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 3px 35px 0px 0px;
+    border-radius: 12px;
+
+}
+.social_icon .fa-facebook-f:hover{
+    color: #4267B2;
+}
+.social_icon .fa-twitter:hover{
+    color: aqua;
+
+}
+.social_icon .fa-pinterest-p:hover{
+    color: #ee0000;
+
+}
+.social_icon .fa-instagram:hover{
+    color: rgb(184, 2, 190);
+
+} 
+.contact{
+    padding-top: 20px;
+}
+.contact{
+    background-color: #00313d;
+    padding: 33px 45px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-left: 2px solid #000000;
+} 
+.contact a{
+    color: white;
+    padding-top: 20px;
+    font-size: 16px;
+} 
+/* ===============> **Header Css End** <==============*/
+/* ===============> **Banner Css Start** <==============*/
+.banner{
+    text-align: center;
+}
+.banner h1{
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+.view_project{
+    padding-top: 90px;
+}
+.banner .view_project a{
+    margin-top: 20px;
+    padding: 20px 35px;
+    border: 5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* ===============> **Banner Css End** <==============*/
+/* ===============> **Banner_2 Css Start** <==============*/
+.banner_wrap{
+    display: flex;
+    padding: 100px 0px;
+}
+.banner_bg_left{
+    width: 50%;
+    position: absolute;
+}
+.banner_bg_right{
+    width: 50%;
+    padding-left: 25px;
+    left: 50%;
+    position: relative;
+}
+.banner_2_bg{
+    position: absolute;
+}
+.base{
+    position: relative;
+    bottom: 119px;
+    left: 120px;
+}
+.years{
+    position: relative;
+    top: -321px;   
+}
+.years a{
+    color: white;
+    border-right: 30px solid #fff;
+    border-top: 30px solid #fff;
+    background-color: #002129;
+    padding: 41px 45px;
+    font-size: 20px;
+}
+.years a strong{
+    font-size: 35px;
+    font-weight: bold;
+}
+.banner_bg_right h4{
+    font-size: 20px;
+    color: #002129;
+}
+.banner_bg_right h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+.banner_bg_right p{
+    font-size: 18px;
+    color: #808186;
+    padding-top: 32px;
+    line-height: 2em;
+}
+.banner_bg_right  h3{
+    color: #002129;
+    font-size: 30px;
+    padding-top: 35px;
+}
+.banner_bg_right .more_about_us{
+    padding-top: 60px;
+}
+.banner_bg_right .more_about_us a{
+    font-size: 20px;
+    padding: 20px 25px;
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* ===============> **Banner_2 Css End** <==============*/
+/* ===============> **What We Do Css Start** <==============*/
+.what_we_do{
+    background-image: url(../img/backlit-blogging-business-34153.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+}
+.what_we_do_top{
+    text-align: center;
+    padding-top: 100px;
+}
+.what_we_do_top p{
+    color: rgb(255, 250, 250);
+    font-size: 20px;
+    font-weight: bold;    
+}
+.what_we_do_top h3{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+.whta_we_do_text{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    top: 250px;
+}
+.text1{
+    width: 330px;
+    height: 480px;
+    text-align: center;
+    background-color: white;
+    border-top: 40px solid transparent;  
+    border-image: url(../img/border_image.jpg) 50 round;
+    box-shadow: 1px 5px 5px 0px;
+    border-radius: 10px;
+
+}
+.text1 img{
+    padding-top: 25px;
+}
+.text1 h2{
+    padding-top: 30px;
+    font-size: 24px;
+    color: black;
+}
+.text1 p {
+    font-size: 15px;
+    color: #808186;
+    padding: 50px 70px;
+    line-height: 2em;
+}
+.read_more{
+    padding-top: 40px;
+}
+.read_more a{
+    font-size: 16px;
+    color: black;
+    padding: 15px 25px;
+    border: 4px solid #002B36;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* ===============> **What We Do Css End** <==============*/
+/* ===============> **Our Future Css Start** <==============*/
+
+.our_future_wrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 360px;
+}
+.our_future_text{
+    background-color: #F3F3F3;
+
+}
+.building_home_hotel{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 30px;
+
+}
+.building_home_hotel p {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+
+.our_future_text h2{
+    color: #002129;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+.our_future_text h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 37px;
+}
+.our_future_text p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 2em;
+    padding: 30px 65px;
+}
+
+.our_future_bg img{
+    width: 100%;
+    height: 100%;
+}
+/* ===============> **Our Future Css End** <==============*/
+/* ===============> **Recent Project Css Start** <==============*/
+.recent_project{
+    padding-top: 100px;
+}
+.recent_project_head{
+    text-align: center;   
+}
+.recent_project_head p{
+    font-size: 20px;
+    color: #002129;
+}
+.recent_project_head h2{
+    padding-top: 30px;
+    font-size: 60px;
+    font-weight: normal;
+}
+.recent_project_wrap{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    padding-top: 60px;
+    width: 100%
+}
+.project img{
+    width: 100%;
+} 
+.project p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+/* ===============> **Recent Project Css End** <==============*/
+/* ===============> **Number Css Start** <==============*/
+.number_bg{
+    background-image: url(../img/ai-artificial-intelligence-codes-247791.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top:  30px;
+}
+.number_speaks_head{
+    text-align: center;
+}
+.number_speaks_head p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-top: 120px;
+    font-weight: bold;
+}
+.number_speaks_head h2{
+    font-size: 60px;
+    padding-top: 25px;
+    color: white;
+}
+.number_speaks_wrap{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-between;
+}
+.number_speaks{
+    padding: 0px 95px;
+    border-right: 3px solid rgb(167, 167, 167);
+}
+.number_speaks:last-child{
+    border-right: none;
+}
+.number_speaks h2{
+    font-size: 70px;
+    color: white;
+}
+.number_speaks p{
+    font-size: 20px;
+    color: #ffffff;
+}
+/* ===============> **Number Css End** <==============*/
+/* ===============> **Build Our Project Css Start** <==============*/
+.build_our_project_wrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+.build_our_project_left_bg1{
+    width: 94%;
+    padding: 0px 0px 50px 0px; 
+}
+.build_our_project_left_bg2 img{
+    border-radius: 10px;
+}
+ 
+.build_our_project_right{
+    padding: 0px 0px 0px 50px;
+}
+.build_our_project_right h3{
+    font-size: 20px;
+    color: #002129;
+}
+.build_our_project_right h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+.build_our_project_right p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 2em;
+    line-break: auto;
+}
+.build_our_project_right img{
+    padding-top: 31px;
+    width: 100%;
+}
+
+/* ===============> **Build Our Project Css End** <==============*/
+/* ===============> **Our Company History Css Start** <==============*/
+.our_company_bg{
+    background-color: #002129;
+}
+.our_company_history_head{
+    text-align: center;
+    padding-top: 100px;
+}
+.our_company_history_head p{
+    font-size: 20px;
+    color:  rgb(255, 255, 255);
+}
+.our_company_history_head h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+.our_company_mid{
+    display: grid;
+    grid-template-columns: 17% 17% 17% 16% 17% 15%;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-top: 60px;
+}
+.our_company_mid .month{
+    padding: 0 0 20px 20px; 
+    border-left: 1px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.our_company_mid .month h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.our_company_mid .month p{
+    line-height: 2em;
+    font-size: 16px; 
+}
+.our_company_hr{
+    display: flex;
+    color: rgb(216, 216, 216);
+}
+.our_company_hr hr{
+    width: 100%;
+    background-color: #00313D;
+    border: 1px solid #00313D;
+}
+.our_company_hr i{
+    font-size: 3px; 
+}
+.our_company_bottom{
+    display: grid;
+    grid-template-columns:  16% 17% 17% 16% 17% 15%;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.our_company_bottom .month{
+    padding: 30px 0 0 20px;
+    border-left: 1px solid rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.our_company_bottom .month h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.our_company_bottom .month p{
+    line-height: 2em;
+    font-size: 16px;
+}
+/* ===============> **Our Company History Css End** <==============*/
+/* ===============> **Recent News Css Start** <==============*/
+.recent_news{
+    padding: 100px 0px;
+}
+.recent_news_head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:  50px;
+}
+.view_all_post{
+    padding-top: 45px;
+}
+.view_all_post a{
+    padding: 15px 20px;
+    border: 4px solid #002B36;
+    color: black;
+    border-radius: 6px;
+}
+.recent_news_text p{
+    color:  #002129;    
+    font-size: 20px;
+}
+.recent_news_text h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+.recent_news_bg_1 img{
+    width: 100%;
+}
+ .recent_news_bg_2{
+    background-color: #002129;
+    width: 65px;
+    height: 65px;
+    left: 40px;
+    border: 7px solid #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+} 
+.recent_news_bg_2 p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.recent_news_bottom {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-gap: 30px;
+}
+.recent_news_bg_wrap {
+    box-shadow: 0px 0px 3px 0px;
+    width: 100%;
+    border-radius: 10px;
+} 
+.recent_news_bg_1 img{
+    border-radius: 10px;
+
+}
+.recent_news_bottom_text{
+    color: black;
+    padding: 0px 45px;
+}
+.recent_news_bottom_text h3{
+    font-size: 16px;
+    color: #002129;
+}
+.recent_news_bottom_text h2{
+    font-size: 26px;
+    padding: 20px 0px;
+}
+.recent_news_bottom_text p{
+    font-size: 16px;
+    color: #808186;
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+/* ===============> **Recent News Css End** <==============*/
+/* ===============> **Client Say Css End** <==============*/
+.client_say_top{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.client_say_top h5{
+    color: #002129;
+    font-size: 20px;
+}
+.client_say_top p{
+    font-size: 60px;
+}
+.client_say_bottom p{
+    background-color: #F3F3F3;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px 170px;
+}
+.client_say_bottom span{
+    color: #002129;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.client_say_project_wrap{
+    justify-content: center;
+    display: flex;
+}
+.client_say_project{
+    position: relative;
+    top: -53px;
+    padding: 0px 8px;
+}
+.client_say_project_extra{
+    position: relative;
+    top: -60px;
+}
+.client_say_project img{
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+}
+.client_say_project_extra img{
+    border: 7px solid #002129;
+    border-radius: 8px;
+    width: 90px;
+    height: 90px;
+}
+/* ===============> **Client Say Css End** <==============*/
+/* ===============> **Start New Project Css Start** <==============*/
+.google_map{
+    width: 100%;
+}
+.iframe_map{
+    width: 100%;
+    height: 650px;
+    vertical-align: middle;
+}
+/* ===============> **Footer Css Start** <==============*/
+.footer{
+    background-color: #002129;
+    margin: auto;
+}
+.footer_wrap{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 70px 0px 70px 0px;
+    width: 100%;
+}
+.footer_wrap p{
+    color: #ffffff;
+    line-height: 2em;
+}
+.footer_wrap span{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.footer_wrap h4{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.nexten img{
+    margin-bottom: 20px;
+}
+.nexten p{
+    padding-right: 20px;
+}
+.about ul{
+    padding: 0px;
+}
+.about ul li{
+    margin-top: 10px;
+}
+.about ul li a{
+    color: #ffffff;
+}
+
+.footer_social_icon_wrap {
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 20px; */
+
+}
+.follow h4{
+    margin-bottom: 47px;
+}
+.footer_social_icon a{
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.copy_right{
+    background-color: rgb(0, 25, 31);
+    text-align: center;
+}
+.copy_right p{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+/* ===============> **Footer Css End** <==============*/
+
+
+
